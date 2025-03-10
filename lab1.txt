@@ -1,0 +1,32 @@
+Link do platformy
+https://platforma2.polsl.pl/rau2/course/view.php?id=42
+
+Link do arkusza (login do GitHub-a, tematy zadań, wybór tematu)
+https://polslpl-my.sharepoint.com/:x:/g/personal/bwyrwol_polsl_pl/EScfI5UbtxxGr3rmBNxIS5cBdKhGFL7UU8xTyfU4tV9c9Q?e=b0r7JZ
+
+/*
+    Zadanie 1.
+    
+    1. Zadeklarowac klase student z polami prywatnymi:
+       - nazwisko (string),
+       - imie (string),
+       - numer_legitymacji (const int),
+       - semstr (int),
+       - srednia (int*, wskaznik na tablice zawierajaca srednie z poszczegolnych
+         semestrow);
+    2. Dodac do klasy: konstruktor domyslny (ustawiajacy pola np. "Jan Nowak",
+       nr leg. 0), konstruktor wieloargumenowy (pozwalajacy ustawic pola imie,
+       nazwisko i numer legitymacji na dowolne wartosci) oraz destruktor;
+       w konstruktorach i destruktorze wprowadzic raportowanie ich wywolania
+       (np. na cout/clog/cerr),
+    3. Dodac metody: dodaj_srednia pozwalajaca wprowadzic srednia dla biezacego
+       semestru oraz wyswietl pozwalajaca wyswietlic wszystkie dane o studencie,
+    4. Dodac konstruktory: kopiujacy oraz przenoszacy i sprawdzic ich dzialanie,
+       zwrocic uwage na pole numer_legitymacji,
+    5. Dodac metode: dodaj_srednia pozwalajaca wprowadzic srednie dla kilku
+       semestrow, wykorzystac std::initializer_list,
+    6. Dodac do klasy pole statyczne pozwalajace przechowywac liczbe utworzonych
+       obiektow, wyswietlac na konsoli kazda zmiane tego pola,
+    7. Dodac metody set/get dla pol klasy.
+
+ */
