@@ -8,8 +8,8 @@ https://polslpl-my.sharepoint.com/:x:/g/personal/bwyrwol_polsl_pl/EScfI5UbtxxGr3
     Zadanie 1.
     
     1. Zadeklarowac klase student z polami prywatnymi:
-       - nazwisko (string),
-       - imie (string),
+       - nazwisko (char*),
+       - imie (char*),
        - numer_legitymacji (const int),
        - semstr (int),
        - srednia (int*, wskaznik na tablice zawierajaca srednie z poszczegolnych
